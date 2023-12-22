@@ -1,0 +1,92 @@
+body{
+    background-color: #F7ECDE;
+    
+}
+*{
+    font-family: 'PT Sans Caption', sans-serif;
+    box-sizing: border-box;
+}
+.input-caption{
+    border-bottom:black dotted 2px ;
+    border-top:black dotted 2px ;
+}
+.btn-submit {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #d1512d;
+    --bs-btn-border-color: #d1512d;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #bb4120;
+    --bs-btn-hover-border-color: #a03315;
+}
+.overlay{
+    width: 100%;
+    height: 25%;
+    background-color: #FEC260;
+    position: absolute;
+    left: 0px;
+    bottom: 12px;
+    transition: all .7s;
+    z-index: -1;
+}
+
+.head:hover .overlay{
+    height: 50%;
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+}
+
+h2{
+    font-family: 'Righteous', sans-serif;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #0f7d30, #d6c71d);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+.box-info {
+    background-color: #0007;
+  }
+  
+  .box-conent {
+    width: 500px;
+    z-index: 10;
+  }
+  
+  .box-conent p {
+    font-family: "Bree Serif", serif;
+    font-size: 21px;
+    line-height: 1.3;
+    color: #352e28;
+  }
+  
+  .rules li {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  .rules i {
+    color: #bb4120;
+  }
+  
+  .circles span {
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .circles span:nth-child(1) {
+    background-color: #f15f5d;
+  }
+  .circles span:nth-child(2) {
+    background-color: #febe2e;
+  }
+  .circles span:nth-child(3) {
+    background-color: #4db748;
+  }
+  
+  .logo {
+    width: 40px;
+  }
+  
